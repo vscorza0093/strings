@@ -6,7 +6,10 @@ namespace Strings
     {
         static void Main(string[] args)
         {
-            Guids guidObj = new Guids(true);
+            // Guids guidObj = new Guids();
+            // Console.WriteLine($"\n{guidObj.GetType()}");
+
+            StringComparisonStudies stringComparisonStudies = new StringComparisonStudies();
         }
     }
 }

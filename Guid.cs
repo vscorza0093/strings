@@ -6,11 +6,6 @@ namespace Strings
     {
         public Guids ()
         {
-
-        }
-
-        public Guids (bool newHash)
-        {
             //GUID - Global Unique Identifier
             Console.Clear();
             
@@ -31,8 +26,13 @@ namespace Strings
             var id2 = Guid.NewGuid();
             Console.WriteLine(id2);
 
-            if(id == id2) // we can use comparators
-                Console.WriteLine("You're crazy");
+            // we can use comparators
+            if(id.CompareTo(id2) == 0) 
+                Console.Write("You're crazy, ");
+
+            // but it is not an string
+            if(id.ToString().Contains(id2.ToString()))
+                Console.WriteLine("very crazy");
         }
     }
 }
