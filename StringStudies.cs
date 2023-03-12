@@ -112,7 +112,6 @@ namespace Strings
             stringBuilderTest.Append("Test 4\n");
 
             Console.WriteLine(stringBuilderTest); // Here we dont need to converto ToString() because Console.WriteLine already handle with it, but, in other cases we have to because StringBuilder() is a unique class.
-
         }
     }
 }
