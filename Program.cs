@@ -9,7 +9,7 @@ namespace Strings
             // Guids guidObj = new Guids();
             // Console.WriteLine($"\n{guidObj.GetType()}");
 
-            StringComparisonStudies stringComparisonStudies = new StringComparisonStudies();
+            StringStudies stringStudies = new StringStudies();
         }
     }
 }
